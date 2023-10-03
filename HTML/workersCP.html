@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WorkersCP</title>
+  <link rel="stylesheet" href="workersCP.css">
+</head>
+
+<body>
+  
+  <div class="wall-left">
+    <a href="http://localhost:3000/auth"><button class="headerButton">Authorization</button></a>
+    <a href="http://localhost:3000/workersCP"><button class="headerButton">WorkersCP</button></a>
+    <button class="headerButton" onclick="logout()">Logout</button>
+  </div>
+  <div class="wall-right"></div>
+
+  <a href="http://localhost:3000/reg"><button class="header-button">+</button></a>
+
+
+  <div class="workers-window">
+    <div class="workers-header">
+      <div class="id-div">ID</div>
+      <div class="name-div">Name</div>
+      <div class="email-div">Email</div>
+      <div class="position-div">Position</div>
+      <div class="status-div">Status</div>
+      <div class="action-div">Update/Delete</div>
+    </div>
+
+    <div class="worker-div">
+      
+    </div>
+    
+  </div>
+  
+
+</body>
+
+<script src="workersCP.js"></script>
+<script src="logout.js"></script>
+
+</html>

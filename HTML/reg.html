@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+
+  <div class="wall-left">
+    <a href="http://localhost:3000/auth"><button class="headerButton">Authorization</button></a>
+    <a href="http://localhost:3000/workersCP"><button class="headerButton">WorkersCP</button></a>
+    <button class="headerButton" onclick="logout()">Logout</button>
+
+  </div>
+  <div class="wall-right"></div>
+  
+
+
+<div class="auth-window">
+  <input class="inputDivName" placeholder="Worker name" type="text">
+  <input class="inputDivEmail" placeholder="Worker email" type="text">
+  <input class="inputDivPwd" placeholder="Worker password" type="text">
+  <div class="position-div">
+    <p class="posP">Position:</p>
+    <button class="posButton" onclick="handlePosForm('OPEN')">Set</button>
+  </div>
+  <button class="button" onclick="handleFetchReg()">Add worker</button>
+</div>
+
+
+</body>
+
+<script src="reg.js"></script>
+<script src="logout.js"></script>
+
+
+</html>

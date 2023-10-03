@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Authorization</title>
+  <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+  <div class="wall-left">
+    <a href="http://localhost:3000/auth"><button class="headerButton">Authorization</button></a>
+    <a href="http://localhost:3000/workersCP"><button class="headerButton">WorkersCP</button></a>
+    <button class="headerButton" onclick="logout()">Logout</button>
+  </div>
+  <div class="wall-right"></div>
+  
+
+
+<div class="auth-window">
+  <input class="inputDivName" placeholder="Worker name" type="text">
+  <input class="inputDivPwd" placeholder="Worker password" type="text">
+  <button class="button" onclick="handleFetchAuth()">Login</button>
+</div>
+
+
+</body>
+
+<script src="auth.js"></script>
+<script src="logout.js"></script>
+
+</html>
